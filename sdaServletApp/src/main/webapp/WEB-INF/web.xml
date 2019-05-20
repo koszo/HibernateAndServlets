@@ -1,0 +1,42 @@
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>firstServlet</servlet-name>
+		<servlet-class>com.sda.servlet.FirstServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>firstServlet</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>personServlet</servlet-name>
+		<servlet-class>com.sda.servlet.PersonServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>personServlet</servlet-name>
+		<url-pattern>/getPersons</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegionListServlet</servlet-name>
+		<servlet-class>com.sda.servlet.RegionListServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RegionListServlet</servlet-name>
+		<url-pattern>/regionList</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegionCreateServlet</servlet-name>
+		<servlet-class>com.sda.servlet.RegionCreateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RegionCreateServlet</servlet-name>
+		<url-pattern>/regionCreate</url-pattern>
+	</servlet-mapping>
+</web-app>
